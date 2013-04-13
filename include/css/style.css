@@ -1,0 +1,72 @@
+@font-face {
+font-family: 'GoodDog';
+src: url('../fonts/GoodDog.otf') format('truetype');
+font-weight: normal;
+font-style: normal;
+}
+@font-face {
+font-family: 'Ubuntu-Title';
+src: url('../fonts/Ubuntu-Title.otf') format('truetype');
+font-weight: normal;
+font-style: normal;
+}
+
+.headerLogo{
+	font-family:GoodDog,sans-serif;
+	font-size: 5em;	
+	padding-top:50px;
+	margin-bottom: 20px;
+	text-shadow: 2px 2px 6px rgba(54, 0, 0, 0.40);
+}
+
+.header div{
+	height:100px;
+}
+.languages{
+	height: 50px;
+}
+
+.flag img{
+	width: 40px;
+	height: 30px;
+	margin: 5px;
+	float: left;
+	background-color: yellow;
+	cursor: pointer;
+}
+
+.flag :hover{
+	border:1px solid red;
+}
+
+
+
+body{
+	/* background: none repeat scroll 0 0 #E2E2E2;*/
+	background: url("../img/img_site/body-bg.jpg") repeat fixed 0 0 lightyellow;
+}
+
+@font-face {
+font-family: 'GoodDog';
+src: url('../fonts/GoodDog.otf') format('truetype');
+font-weight: normal;
+font-style: normal;
+}
+@font-face {
+font-family: 'Ubuntu-Title';
+src: url('../fonts/Ubuntu-Title.otf') format('truetype');
+font-weight: normal;
+font-style: normal;
+}
+
+/*
+[class*="span"] {
+    margin-left: 0;
+    background-color: blue;
+}
+*/
+
+textarea{
+
+	width:95%;
+}
